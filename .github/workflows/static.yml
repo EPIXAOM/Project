@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว | My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2>MyProfile.</h2>
+
+        <div class="nav-links">
+            <a href="#home">หน้าแรก</a>
+            <a href="#about">เกี่ยวกับฉัน</a>
+            <a href="#education">การศึกษา</a>
+            <a href="#skills">ทักษะ</a>
+            <a href="#contact">ติดต่อ</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY WEBSITE</p>
+            <h1>สวัสดีครับ ผมชื่อ <span>นายนนทัช พระหามาตย์</span></h1>
+            <h3>นักศึกษาเทคโนโลยีสารสนเทศ</h3>
+            <p>ยินดีต้อนรับเข้าสู่เว็บไซต์ประวัติส่วนตัวของผม</p>
+            <a href="#about" class="btn">รู้จักฉันเพิ่มเติม ไม่บอก</a>
+        </div>
+
+        <div class="profile">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <h2>เกี่ยวกับฉัน</h2>
+        <p class="subtitle">ABOUT ME</p>
+
+        <div class="card">
+            <p><b>ชื่อ-นามสกุล:</b> นายนนทัช พระหามาตย์</p>
+            <p><b>ชื่อเล่น:</b> ออมสิน</p>
+            <p><b>วันเกิด:</b> 11/02/2006</p>
+            <p><b>อายุ:</b> 20 ปี</p>
+            <p><b>สาขาวิชา:</b> เทคโนโลยีสารสนเทศ</p>
+            <p><b>งานอดิเรก:</b> เล่นเกม วาดรุป</p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section gray" id="education">
+        <h2>ประวัติการศึกษา</h2>
+        <p class="subtitle">EDUCATION</p>
+
+        <div class="card">
+            <h3>ระดับประกาศนียบัตรวิชาชีพ (ปวช.)</h3>
+            <p>ชื่อสถานศึกษา : วิทยาลัยเทคนิคสมุทรปราการ</p>
+            <p>ปีที่ศึกษา : XXXX - XXXX</p>
+            <hr>
+            <h3>ระดับประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.)</h3>
+            <p>วิทยาลัยเทคนิคสมุทรปราการ</p>
+            <p>สาขาเทคโนโลยีสารสนเทศ</p>
+            <p>ปีที่ศึกษา : XXXX - ปัจจุบัน</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+        <h2>ทักษะและความสามารถ</h2>
+        <p class="subtitle">MY SKILLS</p>
+
+        <div class="skills">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">PHP</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Roblox Studio</div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section gray" id="contact">
+        <h2>ช่องทางติดต่อ</h2>
+        <p class="subtitle">CONTACT ME</p>
+
+        <div class="card">
+            <p>Email: aomreemik@email.com</p>
+            <p>Facebook: EPIXAOM</p>
+            <p>โทรศัพท์: 064-999-1506</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 My Personal Website</p>
+        <p>Created by นายนนทัช พระหามาตย์</p>
+    </footer>
+
+</body>
+</html>
